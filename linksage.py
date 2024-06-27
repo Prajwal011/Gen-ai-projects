@@ -37,9 +37,9 @@ main_placeholder = st.empty()
 
 repo_id = 'mistralai/Mistral-7B-Instruct-v0.3'
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = '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'
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = 'token'
 
-HUGGINGFACEHUB_API_TOKEN = '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'
+HUGGINGFACEHUB_API_TOKEN = 'token'
 
 llm = HuggingFaceEndpoint(
     repo_id=repo_id, temperature=0.5, token=HUGGINGFACEHUB_API_TOKEN,
